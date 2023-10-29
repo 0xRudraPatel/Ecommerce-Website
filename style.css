@@ -661,6 +661,39 @@ body {
 
 /* =============================== Single Product Page End ================================== */
 
+/* =============================== About Us Page Start ================================== */
+
+#about-header{
+  background-image: url(img/about/banner.png);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 14px;
+}
+
+#about-header h2,
+#about-header p{
+  color: #fff;
+}
+
+#about{
+  display: flex;
+  align-items: center;
+}
+
+#about img{
+  width: 50%;
+  height: auto;
+}
+
+#about div{
+  padding-left: 40px;
+}
+
 
 /* ========================================================================================== */
 /* ===================================== Media Query ======================================== */
@@ -883,5 +916,23 @@ body {
   #prodetails .single-pro-details{
     width: 100%;
     padding-top: 0;
+  }
+
+  /* about us page */
+  #about{
+    flex-direction: column;
+  }
+
+  #about img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about div{
+    padding-left: 0;
+  }
+
+  #about div h2{
+    font-size: 38px;
   }
 }
